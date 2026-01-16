@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* HEADER */
+.pos-header {
+    border: 1px solid #ECEDED;
+    height: 97px;
+}
+
+.pos-logo {
+    display: inline-block;
+    width: 89;
+    height: 56;
+    vertical-align: auto;
+    margin-right: 109px;
+    margin-top: 21px;
+    margin-left: 27px;
+}
+
+.search-input {
+    width: 357px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: #ECF3F5;
+    border: none;
+}
+
+.header-actions {
+    float: right;
+    margin-top: 20px;
+    margin-left: 482px;
+    margin-right: 29px;
+}
+
+.header-date {
+    font-size: 15px;
+    margin-right: 21px;
+
+}
+
+.header-date::before {
+    content: url(images/date.png);
+    width: 16px;
+    height: 18px;
+    margin-right: 7px;
+}
+
+.add-table-btn {
+    background-color: #B1CED4;
+    border: none;
+    width: 175px;
+    height: 58px;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #2C3832;
+}
+
+.add-table-btn::before {
+    content: url(images/add.png);
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+/* MENU */
+.menu {
+    font-size: 0;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 900px;
+    height: 476px;
+}
+
+.menu-card {
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.menu-image {
+    width: 203px;
+    height: 143px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.menu-card-desc {
+    width: 203px;
+    height: 71px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #D8E6E9;
+}
+
+.menu-title {
+    text-align: center;
+    font-weight: medium;
+    padding-top: 8px;
+    color: black;
+    font-size: 17px;
+}
+
+.menu-category {
+    font-size: 12px;
+    color: black;
+    padding-top: 1px;
+    padding-left: 11px;
+    display: inline-block;
+}
+
+.menu-btn {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: none;
+    background-color: salmon;
+    text-align: center;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.menu-card-desc img {
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    margin-left: 12px;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 949px;
+    height: 106px;
+    background-color: hsla(184, 18%, 93%, 1);
+    z-index: 1000;
+}
+
+.footer-btn {
+    width: 158px;
+    height: 58px;
+    margin: 25px 35px 25px 35px;
+    display: inline-block;
+    font-size: 16px;
+    color: hsla(0, 0%, 66%, 1);
+    background-color: hsla(0, 0%, 85%, 1);
+    border: none;
+    border-radius: 7px;
+}
+
+.footer-btn:hover {
+    background-color: hsla(84, 32%, 27%, 1);
+    color: hsla(193, 31%, 94%, 1);
+}
+
